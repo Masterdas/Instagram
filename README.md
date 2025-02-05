@@ -1,7 +1,6 @@
-<h2 align="center"><u>MasterHacker</u></h2>
+<h1 align="center"><u>MasterHacker</u></h1>
 
-![Hack page and get images](https://raw.githubusercontent.com/Mouse99-tech/Photo/refs/heads/main/IMG_20250205_093528.jpg)
-<h4 align="center"> Hack anyone's Instagram and get images!</h4>
+
 
 
 ### [TERMUX] Install All Comments
@@ -49,6 +48,11 @@ nano /storage/emulated/0/Download/User_data.txt
 6 - `cd /storage/emulated/0/Download/`
 
 7 - `instagram`
+
+
+
+<h4 align="center"> Hack anyone's Instagram and get images!</h4>
+![Hack page and get images](https://raw.githubusercontent.com/Mouse99-tech/Photo/refs/heads/main/IMG_20250205_093528.jpg)
 
 
 
