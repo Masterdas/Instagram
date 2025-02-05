@@ -25,6 +25,7 @@ bash setup.sh
 ```
 instagram
 ```
+### [Termux] New Tap
 ```
 ssh -R 80:localhost:8080 localhost.run
 ```
