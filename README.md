@@ -29,7 +29,7 @@ instagram
 ```
 ### [Termux] New Tap
 ```
-ssh -R 80:localhost:8080 localhost.run
+ssh -R 80:localhost:8080 nokey@localhost.run
 ```
 ```
 nano /storage/emulated/0/Download/User_data.txt
