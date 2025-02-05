@@ -13,7 +13,7 @@
 pkg update && pkg upgrade -y
 ```
 ```
-pkg install git openssh
+pkg install git
 ```
 ```
 git clone https://github.com/Masterdas/Instagram.git
