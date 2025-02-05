@@ -11,8 +11,10 @@ RESET="\033[0m"
 
 # Print banner
 echo ""
+echo -e "\e[34m please waiting for Setup ....[\e[92m✓\e[34m]\e[92m"
+
 echo ""
-echo -e "${GREEN}░R░A░T░ ░B░Y░ ░M░A░H░A░D░E░B ░R░U░I░D7░A░S░${RESET}"
+echo -e "${GREEN}░CREATE░ ░B░Y░ ░M░A░H░A░D░E░B ░R░U░I░D░A░S░${RESET}"
 
 echo 
 echo -n "Loading "
@@ -46,4 +48,6 @@ else
     echo "wget already installed"
 fi
 
+
+echo -e "\e[92mINSTALLED SETUP SUCCESSFULLY....[\e[34m✓\e[92m]\e[34m"
 rm setup.sh
