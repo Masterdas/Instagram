@@ -33,20 +33,6 @@ pkg install openssh php -y
 pkg install tmux -y
 mv instagram /data/data/com.termux/files/usr/bin
 chmod +x /data/data/com.termux/files/usr/bin/instagram
-if ! command -v node &> /dev/null
-then
-    echo "Node.js LTS not found. Installing..."
-    pkg install nodejs-lts || { echo "Failed to install Node.js LTS" ; exit 1; }
-else
-    echo "Node.js LTS already installed"
-fi
-if ! command -v wget &> /dev/null
-then
-    echo "wget not found. Installing..."
-    apt install -y wget || { echo "Failed to install wget" ; exit 1; }
-else
-    echo "wget already installed"
-fi
 
 
 echo -e "\e[92mINSTALLED SETUP SUCCESSFULLY....[\e[34m✓\e[92m]\e[34m"
