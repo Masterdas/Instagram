@@ -38,7 +38,7 @@ cd
 nano /storage/emulated/0/Download/User_data.txt
 ```
 - `CTRL +  x enter`
-- `open User_data.txt`
+- 🗃️ Open Manager, Download Folder, User_data.txt
 
 ### [Termux] Help Commend
 
