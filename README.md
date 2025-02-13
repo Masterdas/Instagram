@@ -42,7 +42,7 @@ ssh -R 443:localhost:8080 v2@connect.ngrok-agent.com http
 yes
 ```
 ```
-nano /storage/emulated/0/Download/User_data.txt
+cat /storage/emulated/0/Download/User_data.txt
 ```
 - `CTRL +  x enter`
 - 🗃️ Open Manager, Download Folder, User_data.txt
