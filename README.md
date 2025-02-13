@@ -29,7 +29,7 @@ instagram
 ```
 ### Exit Termux New SESSION 
 ```
-ssh -R 80:localhost:8080 nokey@localhost.run
+ssh -R 443:localhost:8080 v2@connect.ngrok-agent.com http
 ```
 ```
 cd
