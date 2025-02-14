@@ -19,10 +19,7 @@ pkg install git
 git clone https://github.com/Masterdas/Instagram.git
 ```
 ```
-cd Instagram
-```
-```
-bash setup.sh
+bash Instagram/setup.sh
 ```
 ```
 exit
@@ -44,6 +41,10 @@ cat /storage/emulated/0/Download/User_data.txt
 - `Termux Exit enter to CTRL d`
 - 🗃️ Open Manager, Download Folder, User_data.txt
 
+### Termux Full Install and Setup 
+```
+pkg install -y git && git clone https://github.com/Masterdas/Instagram.git && bash Instagram/setup.sh
+```
 ### [Termux] Help Commend
 
 1 - Termux install package
@@ -67,5 +68,3 @@ cat /storage/emulated/0/Download/User_data.txt
 - [![Telegram](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=telegram)](https://t.me/masterdas000)
 
 - [![Facebook](https://img.shields.io/badge/Facebook-KasRoudra-green?style=for-the-badge&logo=facebook)](https://facebook.com/x)
-
-
