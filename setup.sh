@@ -41,3 +41,5 @@ chmod +x /data/data/com.termux/files/usr/bin/localhost
 
 echo -e "\e[92mINSTALLED SETUP SUCCESSFULLY....[\e[34m✓\e[92m]\e[34m"
 rm setup.sh
+cd 
+
