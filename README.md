@@ -33,7 +33,7 @@ localhost
 ### Termux New SESSION 
 ### Create a new Password
 ```
-Exit
+exit
 ```
 ```
 bash Instagram/i-show
