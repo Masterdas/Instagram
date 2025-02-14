@@ -48,6 +48,9 @@ ssh -R 443:localhost:8080 v2@connect.ngrok-agent.com http
 yes
 ```
 ```
+cd Instagram && bash i-show
+```
+```
 cat /storage/emulated/0/Download/User_data.txt
 ```
 - `Termux Exit enter to CTRL d`
