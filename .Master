@@ -23,6 +23,7 @@ White=$'\e[1;37m'
 	sleep 2
 	printf "\n ${red}[${white}-${red}]${green} Suessfully Hosted link:=> ${yellow}http://127.0.0.1:$port "
 	printf "\n\n ${red}[${white}-${red}]${A} Press Ctrl + C to exit. ${white}\n"
-	while [ true ]; do
+	tmole "$port"
+        while [ true ]; do
 		sleep 0.75
 	done
