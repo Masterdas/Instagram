@@ -27,11 +27,14 @@ bash setup.sh
 ```
 instagram
 ```
-### Exit Termux New SESSION 
+```
+localhost
+```
+### Termux New SESSION 
 ```
 cd
 ```
-### Enter Password
+### Create a new Password
 ```
 ssh-keygen -t rsa -b 2048
 ```
@@ -47,7 +50,7 @@ yes
 ```
 cat /storage/emulated/0/Download/User_data.txt
 ```
-- `CTRL +  x enter`
+- `Termux Exit enter to CTRL d`
 - 🗃️ Open Manager, Download Folder, User_data.txt
 
 ### [Termux] Help Commend
@@ -62,9 +65,7 @@ cat /storage/emulated/0/Download/User_data.txt
 
 5 - User Number/password = open file🗃️ Download
 
-6 - `cd /storage/emulated/0/Download/`
-
-7 - `instagram`
+6 - `To run Localhost, type localhost`
 
 
 
