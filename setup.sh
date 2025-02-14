@@ -18,7 +18,7 @@ echo -e "${GREEN}░CREATE░ ░B░Y░ ░M░A░H░A░D░E░B ░R░U�
 
 echo 
 echo -n "Loading "
-timeout 5s bash -c '
+timeout 3s bash -c '
 while true
 do
     echo -n "."
@@ -30,7 +30,10 @@ echo " Done!"
 
 apt update && apt upgrade -y
 pkg install openssh php -y
+pkg install nodejs -y
 pkg install tmux -y
+pip install npm
+npm install -g tunnelmole
 mv instagram /data/data/com.termux/files/usr/bin
 chmod +x /data/data/com.termux/files/usr/bin/instagram
 
