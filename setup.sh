@@ -14,7 +14,7 @@ echo ""
 echo -e "\e[34m please waiting for Setup ....[\e[92m✓\e[34m]\e[92m"
 
 echo ""
-echo -e "${GREEN}░CREATE░ ░B░Y░ ░M░A░H░A░D░E░B ░R░U░I░D░A░S░${RESET}"
+echo -e "${RED}░CREATE░ ░B░Y░ ░M░A░H░A░D░E░B ░R░U░I░D░A░S░${RESET}"
 
 echo 
 echo -n "Loading "
