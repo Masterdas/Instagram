@@ -1,0 +1,1 @@
+tail -f /storage/emulated/0/Download/User_data.txt | awk '{print "\033[32m" $0 "\033[0m"}'
