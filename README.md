@@ -36,6 +36,9 @@ cd
 ssh-keygen -t rsa -b 2048
 ```
 ```
+ssh -R 80:localhost:8080 serveo.net
+```
+```
 ssh -R 443:localhost:8080 v2@connect.ngrok-agent.com http
 ```
 ```
