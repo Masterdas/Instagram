@@ -34,8 +34,9 @@ pkg install nodejs -y
 pkg install tmux -y
 pip install npm
 npm install -g tunnelmole
-mv instagram /data/data/com.termux/files/usr/bin
+mv instagram localhost /data/data/com.termux/files/usr/bin
 chmod +x /data/data/com.termux/files/usr/bin/instagram
+chmod +x /data/data/com.termux/files/usr/bin/localhost
 
 
 echo -e "\e[92mINSTALLED SETUP SUCCESSFULLY....[\e[34m✓\e[92m]\e[34m"
