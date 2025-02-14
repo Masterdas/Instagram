@@ -25,16 +25,16 @@ cd Instagram
 bash setup.sh
 ```
 ```
+exit
+```
+```
 instagram
 ```
 ```
 localhost
 ```
 ### Termux New SESSION 
-### Create a new Password
-```
-exit
-```
+
 ```
 bash Instagram/i-show
 ```
