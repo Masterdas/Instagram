@@ -4,6 +4,7 @@
 def_port='8080'
 
 # Color Codes
+CR=$'\e[1;31m' CG=$'\e[1;32m' CY=$'\e[1;33m' CB=$'\e[1;34m' CC=$'\e[1;36m' CW=$'\e[1;37m' RS=$'\e[1;0m'
 white=$'\e[1;0m'
 red=$'\e[1;31m'
 green=$'\e[1;32m'
