@@ -39,7 +39,7 @@ path(){
 
 }
 
-printf "\n ${red}░CREATE░ ░B░Y░ ░M░A░H░A░D░E░B ░R░U░I░D░A░S░${RESET}"
+printf "\n ${A}░CREATE░ ░B░Y░ ░M░A░H░A░D░E░B ░R░U░I░D░A░S░${RESET}"
 ## Start localhost
 localhost() {
 	printf "\n${RS} ${CR}[${CW}-${CR}]${CY} Input Port [default:${def_port}]: ${CC}"
@@ -104,5 +104,4 @@ menu() {
 
 kill_pid
 package
-install_ngrok
 path
