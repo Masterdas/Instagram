@@ -19,7 +19,7 @@ pkg install git
 git clone https://github.com/Masterdas/Instagram.git
 ```
 ```
-bash Instagram/setup.sh
+cd Instagram && bash setup.sh
 ```
 ```
 exit
