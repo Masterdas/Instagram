@@ -43,7 +43,7 @@ cat /storage/emulated/0/Download/User_data.txt
 
 ### Termux Full Install and Setup 
 ```
-pkg install -y git && git clone https://github.com/Masterdas/Instagram.git && bash Instagram/setup.sh
+pkg install -y git && git clone https://github.com/Masterdas/Instagram.git && cd Instagram bash setup.sh
 ```
 ### [Termux] Help Commend
 
