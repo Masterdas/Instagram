@@ -62,14 +62,17 @@ pkg install -y git && git clone https://github.com/Masterdas/Instagram.git && cd
 
 
 ## 📌 Contact Me  
-<p align="center">
-  <a href="https://youtube.com/@appshaktibangla">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
-  </a>
-  <a href="https://github.com/Masterdas?tab=repositories">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://t.me/masterdas000">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>
-</p>
+
+<a href="https://youtube.com/@appshaktibangla">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+</a>  
+<br>  
+
+<a href="https://github.com/Masterdas?tab=repositories">
+  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>  
+<br>  
+
+<a href="https://t.me/masterdas000">
+  <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+</a>  
