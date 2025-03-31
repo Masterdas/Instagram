@@ -63,7 +63,7 @@ pkg install -y git && git clone https://github.com/Masterdas/Instagram.git && cd
 
 ## 📌 Contact Me  
 
-<a href="https://youtube.com/@appshaktibangla">
+<a href="https://youtube.com/@zerodarknexus">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
 </a>  
 <br>  
@@ -73,6 +73,11 @@ pkg install -y git && git clone https://github.com/Masterdas/Instagram.git && cd
 </a>  
 <br>  
 
-<a href="https://t.me/masterdas000">
+<a href="https://t.me/ZeroHackNexus">
   <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
 </a>  
+<br>  
+
+<a href="https://chat.whatsapp.com/II35pNaN25rHqnUmqXK6ag">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+</a>
