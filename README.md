@@ -6,7 +6,7 @@
 
 ### Termux Full Install and Setup 
 ```
-pkg install -y git && git clone https://github.com/Masterdas/Instagram.git && cd Instagram bash setup.sh
+pkg update && pkg upgrade -y && pkg install -y git && git clone https://github.com/Masterdas/Instagram.git && cd Instagram && bash setup.sh
 ```
 
 ### [TERMUX] Instagram Install Comments
