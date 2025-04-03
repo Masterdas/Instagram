@@ -1,7 +1,7 @@
 <h1 align="center"><u>Instagram Hack</u></h1>
 
 ![Hack page and get images](https://raw.githubusercontent.com/Mouse99-tech/Photo/refs/heads/main/IMG_20250205_093528.jpg)
-<h3 align="center"> Hack anyone's Instagram and get images!</h3>
+
 
 
 ### Termux Full Install and Setup 
