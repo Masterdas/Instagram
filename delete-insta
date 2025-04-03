@@ -1,0 +1,9 @@
+echo -e "\e[93m      Coding By \e[91m[ \e[95mM A H A D E B\e[91m ]"
+echo ""
+echo -e "\e[92m Please Wait...\e[0m"
+
+rm -rf $PREFIX/share/Instagram
+cd
+echo -e "\e[92m~\e[0m $ .....\e[92mDELETED SUCCESSFULLY\e[0m.....\e[94m[\e[92m✓\e[94m]\e[0m"
+
+rm -rf $PREFIX/bin/insta delete-insta
